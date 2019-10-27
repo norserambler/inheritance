@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+class Student
+  
+{string name;
+ public:
+  
+  Student (string name)
+  {cin>>name;
+  cin>>age;
+    cout<<"Hello "<<name;
+  }
+  Student()
+  {
+    cout<<"No Attendance\n";
+  }
+  
+  Student(string name,int age)
+  {cout<<name;
+   cout<<age;
+  }
+  Student (int age)
+  {
+    cout<<age;
+  }
+};
+int main()
+{string name;
+  Student stdabs;
+ Student stdpst (name);
+ Student std(name,age);
+ Student stdi(age);
+ //stdabs.Student();
+ //stdpst.Student(name);
+  return 0;
+}
