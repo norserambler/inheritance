@@ -27,9 +27,9 @@ class Student
 int main()
 {string name;
   Student stdabs;
- Student stdpst (name);
+ Student std(name);
  Student std(name,age);
- Student stdi(age);
+ Student std(age);
  //stdabs.Student();
  //stdpst.Student(name);
   return 0;
