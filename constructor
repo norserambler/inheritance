@@ -16,8 +16,8 @@ class Student
   }
   
   Student(string name,int age)
-  {cout<<name;
-   cout<<age;
+  {cout<<"Name of Student"<<name<<endl;
+   cout<<"Age of student"<<age;
   }
   Student (int age)
   {
@@ -25,7 +25,8 @@ class Student
   }
 };
 int main()
-{string name;
+{
+  string name;
   Student stdabs;
  Student std(name);
  Student std(name,age);
